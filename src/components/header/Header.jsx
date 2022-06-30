@@ -1,6 +1,7 @@
 import React from 'react'
 import './header.css'
 import CTA from './CTA'
+import ME from '../../assets/me.png'
 
 const Header = () => {
   return (
@@ -14,9 +15,14 @@ const Header = () => {
 
         <CTA/>
 
+        <div className="me">
+
+          <img src={ME} alt="NapsterKE" />
+        </div>
+
       </div>
     </header>
   )
-}
+} 
 
 export default Header
