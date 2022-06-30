@@ -4,7 +4,7 @@
 
  import Header from './components/header/Header'
  import Nav from './components/nav/Nav'
-//  import About from './components/about/About'
+ import About from './components/about/About'
  import Blog from './components/blog/Blog'
  import Services from './components/services/Services'
  import Portfolio from './components/portfolio/Portfolio'
@@ -21,7 +21,7 @@ const App = () => {
     
         <Header />
         <Nav />
-        {/* <About />  */}
+        <About /> 
         <Portfolio />
         <Services />
         <Blog />
