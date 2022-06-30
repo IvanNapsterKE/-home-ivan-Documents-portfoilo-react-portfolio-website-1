@@ -4,21 +4,22 @@ import './nav.css'
 import {BiHomeCircle} from 'react-icons/bi'
 import {ImBriefcase} from 'react-icons/im'
 import {MdOutlineMiscellaneousServices} from 'react-icons/md'
-import {BsInfoCircleFill} from "react-icons/bs";
+import {RiArticleLine} from "react-icons/ri";
 import {BiMessageRoundedDetail} from "react-icons/bi"
 import {RiCustomerService2Line} from 'react-icons/ri'
 
-
+import { useState } from 'react'
 
 const Nav = () => {
+  const [activeNav, setActiveNav] = useState('#')
   return (
     <nav>
-      <a href="#about"><BiHomeCircle/></a>
-      <a href="#experience"><ImBriefcase/></a>
-      <a href="#services"><MdOutlineMiscellaneousServices/></a>
-      <a href="#portfolio"><BsInfoCircleFill/></a>
-      <a href="#testimonials"><BiMessageRoundedDetail/></a>
-      <a href="#contacts"><RiCustomerService2Line/></a>
+      <a href="#" onClick={()=> setActiveNav('#')} className={activeNav === '#' ? 'active' : ''}><BiHomeCircle/></a>
+      <a href="#portfolio" onClick={()=> setActiveNav('#portfolio')} className={activeNav === '#portfolio' ? 'active' : ''}><ImBriefcase/></a>
+      <a href="#services" onClick={()=> setActiveNav('#services')} className={activeNav === '#services' ? 'active' : ''}><MdOutlineMiscellaneousServices/></a>
+      <a href="#blog" onClick={()=> setActiveNav('#blog')} className={activeNav === '#blog' ? 'active' : ''}><RiArticleLine/></a>
+      <a href="#testimonials" onClick={()=> setActiveNav('#testimonials')} className={activeNav === '#testimonials' ? 'active' : ''}><BiMessageRoundedDetail/></a>
+      <a href="#contacts" onClick={()=> setActiveNav('#contacts')} className={activeNav === '#contacts' ? 'active' : ''}><RiCustomerService2Line/></a>
       
     </nav>
   )
