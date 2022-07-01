@@ -18,34 +18,34 @@ const Portfolio = () => {
               
               <div className="portfolio__content">
                   <article className='portfolio__details'>
-                        <BsPatchCheckFill />
-                          <h4>React</h4>
-                        <small className='text-light'>Experienced</small>
+                        <BsPatchCheckFill className='experience_details__icon'/>
+                          <div><h4>React</h4>
+                        <small className='text-light'>Experienced</small></div>
                   </article>
                   <article className='portfolio__details'>
-                        <BsPatchCheckFill />
-                          <h4>React</h4>
-                        <small className='text-light'>Experienced</small>
+                        <BsPatchCheckFill className='experience_details__icon'/>
+                          <div><h4>React</h4>
+                        <small className='text-light'>Experienced</small></div>
                   </article>
                   <article className='portfolio__details'>
-                        <BsPatchCheckFill />
-                          <h4>React</h4>
-                        <small className='text-light'>Experienced</small>
+                        <BsPatchCheckFill className='experience_details__icon'/>
+                          <div><h4>React</h4>
+                        <small className='text-light'>Experienced</small></div>
                   </article>
                   <article className='portfolio__details'>
-                        <BsPatchCheckFill />
-                          <h4>React</h4>
-                        <small className='text-light'>Experienced</small>
+                        <BsPatchCheckFill className='experience_details__icon'/>
+                          <div><h4>React</h4>
+                        <small className='text-light'>Experienced</small></div>
                   </article>
                   <article className='portfolio__details'>
-                        <BsPatchCheckFill />
-                          <h4>React</h4>
-                        <small className='text-light'>Experienced</small>
+                        <BsPatchCheckFill className='experience_details__icon'/>
+                          <div><h4>React</h4>
+                        <small className='text-light'>Experienced</small></div>
                   </article>
                   <article className='portfolio__details'>
-                        <BsPatchCheckFill />
-                          <h4>React</h4>
-                        <small className='text-light'>Experienced</small>
+                        <BsPatchCheckFill className='experience_details__icon'/>
+                          <div><h4>React</h4>
+                        <small className='text-light'>Experienced</small></div>
                   </article>
               </div>
                   
@@ -55,36 +55,36 @@ const Portfolio = () => {
                   
             <h3>Back End Development</h3>
 
-            <div className="portfolio__content">
+              <div className="portfolio__content">
                   <article className='portfolio__details'>
-                        <BsPatchCheckFill />
-                          <h4>React</h4>
-                        <small className='text-light'>Experienced</small>
+                        <BsPatchCheckFill className='experience_details__icon'/>
+                          <div><h4>React</h4>
+                        <small className='text-light'>Experienced</small></div>
                   </article>
                   <article className='portfolio__details'>
-                        <BsPatchCheckFill />
-                          <h4>React</h4>
-                        <small className='text-light'>Experienced</small>
+                        <BsPatchCheckFill className='experience_details__icon'/>
+                          <div><h4>React</h4>
+                        <small className='text-light'>Experienced</small></div>
                   </article>
                   <article className='portfolio__details'>
-                        <BsPatchCheckFill />
-                          <h4>React</h4>
-                        <small className='text-light'>Experienced</small>
+                        <BsPatchCheckFill className='experience_details__icon'/>
+                          <div><h4>React</h4>
+                        <small className='text-light'>Experienced</small></div>
                   </article>
                   <article className='portfolio__details'>
-                        <BsPatchCheckFill />
-                          <h4>React</h4>
-                        <small className='text-light'>Experienced</small>
+                        <BsPatchCheckFill className='experience_details__icon'/>
+                          <div><h4>React</h4>
+                        <small className='text-light'>Experienced</small></div>
                   </article>
                   <article className='portfolio__details'>
-                        <BsPatchCheckFill />
-                          <h4>React</h4>
-                        <small className='text-light'>Experienced</small>
+                        <BsPatchCheckFill className='experience_details__icon'/>
+                          <div><h4>React</h4>
+                        <small className='text-light'>Experienced</small></div>
                   </article>
                   <article className='portfolio__details'>
-                        <BsPatchCheckFill />
-                          <h4>React</h4>
-                        <small className='text-light'>Experienced</small>
+                        <BsPatchCheckFill className='experience_details__icon'/>
+                          <div><h4>React</h4>
+                        <small className='text-light'>Experienced</small></div>
                   </article>
               </div>
                   
