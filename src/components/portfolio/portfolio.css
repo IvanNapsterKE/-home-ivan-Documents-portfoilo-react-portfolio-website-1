@@ -41,7 +41,7 @@ transition: var(--transition);
     gap: 1rem;
 }
 
-.portfolio__details__icon{
+.portfolio_details__icon{
 
     margin-top: 6px;
     color: var(--color-primary);
