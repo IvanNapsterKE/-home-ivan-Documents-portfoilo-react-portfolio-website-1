@@ -46,3 +46,37 @@ transition: var(--transition);
     margin-top: 6px;
     color: var(--color-primary);
 }
+
+
+@media screen and (max-width:1024px) {
+
+    .portfolio__container{ 
+        grid-template-columns: 1fr;
+    }
+
+    .portfolio__container > div{
+      width: 80%;
+      margin: 0 auto;
+      padding: 2 rem;
+
+    }
+
+    .portfolio__content{
+
+     padding : 1rem;   
+     grid-template-columns: 1fr 1fr;
+     
+            
+    }
+    @media screen and (max-width:600px) {
+
+    
+    .portfolio__container{
+
+    width: 100%;
+    padding: 2rem 1 rem;     
+    }
+        
+    
+    }
+}
