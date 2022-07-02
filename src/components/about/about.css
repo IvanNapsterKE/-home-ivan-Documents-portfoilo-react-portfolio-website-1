@@ -2,7 +2,7 @@
     display: grid;
     grid-template-columns: 35% 50%;
     gap: 15%;
-
+    
 }
 
 .about__me{
@@ -12,6 +12,7 @@
     background: linear-gradient(45deg, transparent, var(--color-primary, transparent));
     display: grid;
     place-items: center ;
+    /* height: 80vh; */
 
 }
 
@@ -83,7 +84,13 @@
 
     }
 
-    .about__content p{
+    .btn {
+
+        align: center;   
+              
+       }
+
+    .about__content {
 
      margin: 1rem 0 1.5rem;   
     
