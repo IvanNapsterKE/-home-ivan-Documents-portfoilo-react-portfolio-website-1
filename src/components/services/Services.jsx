@@ -5,7 +5,7 @@ import {BsShieldFillCheck} from 'react-icons/bs'
 
 const Services = () => {
   return (
-    <section id="services">
+    <section id="services" className='pattern1'>
       
         <h5>What I offer</h5>
 

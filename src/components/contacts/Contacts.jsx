@@ -40,7 +40,7 @@ const Contact = () => {
 
             <input type="text" name='name' placeholder='Your name' required />
             <input type="email" name='email' placeholder='Your E-mail' required />
-            <textarea name="message" placeholder='Leave a message' rows="10" required></textarea>
+            <textarea name="message" placeholder='Leave a message' rows="17" required></textarea>
             <button type='submit' className='btn btn-primary'>Send</button>
 
 

@@ -55,7 +55,7 @@ const About = () => {
           at tempore voluptates quo architecto dolore. Dignissimos id incidunt eaque ullam fugit, 
           neque voluptas ducimus quam odit.
         </p>
-        <a href="#contacts" className='btn btn-primary'> Buzz me</a>
+        <a href="#contacts" className='btn btn-primary'> Contact me</a>
       </div>
     </div>
 

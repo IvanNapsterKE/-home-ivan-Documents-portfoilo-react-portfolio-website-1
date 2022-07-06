@@ -6,7 +6,7 @@ import HeaderSocials from './ HeaderSocials'
 
 const Header = () => {
   return (
-    <header>
+    <header className='pattern'>
       <div className="container header__container">
         <h5>Hi, My name is</h5>
 
@@ -22,7 +22,7 @@ const Header = () => {
           <img src={ME} alt="NapsterKE" />
         </div>
 
-        <a href="#Contacts" className='scroll__down'>Scroll</a>
+        <a href="#contacts" className='scroll__down'>Scroll</a>
 
       </div>
     </header>
