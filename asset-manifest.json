@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/-home-ivan-Documents-portfoilo-react-portfolio-website-1/static/css/main.78886405.css",
+    "main.js": "/-home-ivan-Documents-portfoilo-react-portfolio-website-1/static/js/main.6d2e7e1a.js",
+    "static/media/me.png": "/-home-ivan-Documents-portfoilo-react-portfolio-website-1/static/media/me.38b214c3caf107524600.png",
+    "index.html": "/-home-ivan-Documents-portfoilo-react-portfolio-website-1/index.html",
+    "static/media/robots cv.txt": "/-home-ivan-Documents-portfoilo-react-portfolio-website-1/static/media/robots cv.0a4cacb70189e2741011.txt",
+    "main.78886405.css.map": "/-home-ivan-Documents-portfoilo-react-portfolio-website-1/static/css/main.78886405.css.map",
+    "main.6d2e7e1a.js.map": "/-home-ivan-Documents-portfoilo-react-portfolio-website-1/static/js/main.6d2e7e1a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.78886405.css",
+    "static/js/main.6d2e7e1a.js"
+  ]
+}
